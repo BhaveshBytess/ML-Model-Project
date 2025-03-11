@@ -1,0 +1,37 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE-specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files created during model training
+*.log
+*.tmp
+*.bak
+
+# Ignore model output or checkpoint files
+*.h5          # Keras model files
+*.pt          # PyTorch model files
+*.ckpt        # TensorFlow model checkpoints
+*.pkl         # Pickled model files
+
+# Ignore TensorFlow, Keras, and PyTorch temporary cache directories
+.tensorflow/
+.pytorch/
+keras/
+
+# Ignore datasets if you're working locally (optional)
+data/
